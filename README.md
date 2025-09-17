@@ -31,8 +31,7 @@
 | Layer       | Technology |
 |------------|------------|
 | Frontend   | Angular, HTML, CSS, Bootstrap |
-| Backend    | Python, Flask |
-| API        | OpenWeather API |
+| Backend    | Python, Flask,Machine Learning|
 | Tools      | Node.js, npm |
 
 ---
