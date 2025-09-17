@@ -1,0 +1,10 @@
+<div class="container">
+  <h2>Rainfall Prediction</h2>
+  <form (ngSubmit)="submitForm()">
+    <div *ngFor="let key of weatherKeys">
+      <label>{{ key }}</label>
+      <input type="text" [(ngModel)]="weatherData[key]" name="{{ key }}" class="form-control" required>
+    </div>
+    <button type="submit" class="btn btn-primary mt-4">Predict</button>
+  </form>
+</div>
